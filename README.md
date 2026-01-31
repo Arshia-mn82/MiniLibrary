@@ -49,7 +49,7 @@ To run the UI:
 ```bash
 pip install -r requirements.txt
 
-streamlit run ui/app_streamlit.py
+python -m streamlit run ui/app_streamlit.py
 
 
 
@@ -57,4 +57,3 @@ streamlit run ui/app_streamlit.py
 Run the command-line version from the project root:
 ```bash
 python -m src.app
-```
