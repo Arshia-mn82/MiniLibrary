@@ -13,3 +13,48 @@ The project was developed as a team assignment to practice:
 - Merge conflict resolution
 - Team collaboration
 
+---
+
+## Features
+- Add a book (title, author, year)
+- Search books by partial title
+- Delete books by ID or exact title
+- Persistent storage using `books.json`
+- CLI interface
+- Bonus: Graphical UI using Streamlit
+
+---
+
+## Prerequisites
+Make sure the following tools are installed on your system:
+
+- Python 3.10 or higher
+- Git
+- (For bonus UI) Streamlit
+
+---
+
+## Installation & Run (Step-by-step)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Arshia-mn82/MiniLibrary.git
+cd MiniLibrary
+
+```
+
+### Bonus UI (Streamlit)
+To run the UI:
+
+```bash
+pip install -r requirements.txt
+
+streamlit run ui/app_streamlit.py
+
+
+
+### CLI (Terminal)
+Run the command-line version from the project root:
+```bash
+python -m src.app
+```
